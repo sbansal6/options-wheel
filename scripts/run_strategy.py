@@ -4,8 +4,8 @@ from core.execution import sell_puts, sell_calls
 from core.state_manager import update_state, calculate_risk
 from config.credentials import ALPACA_API_KEY, ALPACA_SECRET_KEY, IS_PAPER
 from config.params import MAX_RISK
-from logging.strategy_logger import StrategyLogger
-from logging.logger_setup import setup_logger
+from logging2.strategy_logger import StrategyLogger
+from logging2.logger_setup import setup_logger
 from core.cli_args import parse_args
 
 def main():
